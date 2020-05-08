@@ -9,3 +9,4 @@ if __name__ == '__main__':
     if filename[-4:] != ".txt":
         filename = filename + ".txt"
     write_to_file(filename, message)
+    print("Done!")
