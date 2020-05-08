@@ -5,7 +5,7 @@ def write_to_file(filename, txt):
 if __name__ == '__main__':
     print("Python File Writer Starting.")
     message = str(input("Enter your message: "))
-    filename = str=(input("Enter file name: "))
+    filename = str(input("Enter file name: "))
     if filename[-4:] != ".txt":
         filename = filename + ".txt"
     write_to_file(filename, message)
