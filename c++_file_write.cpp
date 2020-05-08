@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    cout << "C++ File Writer Starting."
     string message, filename;
     cout << "Enter your message: ";
     getline(cin, message);
