@@ -17,6 +17,6 @@ int main()
     myfile.open(filename);
     myfile << message;
     myfile.close();
-
+    cout << "Done!"
     return 0;
 }
